@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+
+nav{
+    display:block;
+}
+nav li{
+    display:inline-block;
+    padding:15px;
+    text-decoration:none;
+}
+.nav-menu-level1{
+    font-size: 15px;
+}
+
+.nav-menu-level2{
+    font-size: 20px;
+}
+li:hover{
+    color:red;
+    font-weight: bold;
+}
+
+.c-nav {
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    width: 100%;
+    --bg-opacity: 1;
+    background-color: #fff;
+    background-color: rgba(255,255,255,var(--bg-opacity));
+    box-shadow: 0 0 48px rgb(0 0 0 / 15%);
+}
+.c-nav_level2{
+    display: block;
+    position: relative;
+    box-shadow: 0 0 48px rgb(0 0 0 / 15%);
+}
+
+
+img{
+    max-width: 500px;
+    height: 300px;
+ }
+
+.main-page {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-top: 100px;
+    width: 80%;
+    grid-gap:50px;
+}
+  
+  .grid-item {   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.a-main-page{
+    font-size: 25px;
+    font-weight: bold;
+}
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+footer{
+    background: black;
+    height: auto;
+}
+
+.footer-top{
+    display: flex;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.fa-facebook-square:before {
+    content: "\f082";
+}
+
+.contact{
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    
+}
+
+.footer-top-left{
+    width: 40%;
+    color: white;
+    font-size: 50px;
+    padding: 15px;
+    float:left;
+}
+.footer-top-middle{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: #0cc;
+    padding: 50px;
+    line-height: 35px;
+    font-size: 20px;
+
+
+}
+
+.footer-top-right{
+    width: 30%;
+    color: #0cc;
+    padding: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    float:right;
+}
+
+.footer-bottom{
+    color:white;
+    text-align: center;
+    border-top: solid 1px white;
+    padding: 50px;
+}
