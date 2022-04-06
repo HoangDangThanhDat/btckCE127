@@ -79,7 +79,7 @@
             <li><a href="">TNW for Startups</a></li>
             </ul>
         </nav>
-        <button class="btn_apply">Apply</button>
+        <a href="./apply.html"><button url="assets/apply.html" class="btn_apply">Apply</button></a>
         <div class="navbar_toggle">
             <i class="fa-solid fa-bars"></i>
         </div>
@@ -171,27 +171,27 @@
           <div class="work-image">
             <img src="./assets/image/work-1.svg" alt="" />
             <div class="work-content">
-              <h3>Media</h3>
+              <a href="./priivate_office.html"><h3>Media</h3></a>
             </div>
           </div>
   
           <div class="work-image">
             <img src="./assets/image/work-2.svg" alt="" />
             <div class="work-content">
-              <h3>Spaces</h3>
+              <a href="./priivate_office.html"><h3>Spaces</h3></a>
             </div>
           </div>
   
           <div class="work-image">
             <img src="./assets/image/work-3.svg" alt="" />
             <div class="work-content">
-              <h3>Events</h3>
+              <a href="./priivate_office.html"><h3>Events</h3></a>
             </div>
           </div>
           <div class="work-image">
             <img src="./assets/image/work-4.svg" alt="" />
             <div class="work-content">
-              <h3>Programs</h3>
+              <a href="./priivate_office.html"><h3>Programs</h3></a>
             </div>
           </div>
         </div>    
@@ -356,6 +356,48 @@
             
             });
     </script>
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "107503611647668");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+ 
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000,
+    });
+  </script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/scroll.js"></script>
     
 </body>
 
